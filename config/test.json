@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "1234",
+    "db": "mongodb://localhost:27017,localhost:27018,localhost:27019/movieRental_test?replicaSet=rs"
+}
