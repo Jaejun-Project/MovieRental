@@ -24,18 +24,18 @@ const logger = createLogger({
         //     format: format.combine(format.timestamp(), format.json())
         // })
     ],
-    // exceptionHandlers: [
-    //     new transports.File({
-    //         filename: './log/exceptions.log',
-    //         level: 'error',
-    //     }),
-    // ],
-    // rejectionHandlers: [
-    //     new transports.File({ 
-    //         filename: './log/rejections.log',
-    //         level: 'error'
-    //     }),
-    // ]
+    exceptionHandlers: [
+        new transports.File({
+            filename: './log/exceptions.log',
+            level: 'error',
+        }),
+    ],
+    rejectionHandlers: [
+        new transports.File({ 
+            filename: './log/rejections.log',
+            level: 'error'
+        }),
+    ]
 })
 
 module.exports = logger;
