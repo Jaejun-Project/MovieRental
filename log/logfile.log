@@ -1,2 +1,4 @@
 {"message":"FATAL ERROR: jwtPrivateKey is not defined.","level":"error","timestamp":"2020-06-29T23:55:58.418Z"}
 {"message":"FATAL ERROR: jwtPrivateKey is not defined.","level":"error","timestamp":"2020-06-29T23:57:17.065Z"}
+{"level":"error","message":"Joi.objectId is not a function","timestamp":"2020-07-07T01:06:43.785Z"}
+{"level":"error","message":"Joi.objectId is not a function","timestamp":"2020-07-07T01:06:47.771Z"}

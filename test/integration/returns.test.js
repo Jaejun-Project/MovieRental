@@ -1,7 +1,6 @@
 const {Rental} = require('../../models/rental');
 const mongoose = require('mongoose');
 const request= require('supertest');
-const { exceptions } = require('../../startup/logging');
 const {User} = require('../../models/user');
 const {Movie} = require('../../models/movie');
 const moment = require('moment');

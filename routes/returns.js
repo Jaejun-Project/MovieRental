@@ -3,7 +3,7 @@ const router = express.Router();
 const {Rental} = require('../models/rental')
 const {Movie} = require('../models/movie')
 const auth = require('../middleware/auth')
-const Joi = require('Joi');
+const Joi = require('joi');
 const validate = require('../middleware/validate');
 
 
